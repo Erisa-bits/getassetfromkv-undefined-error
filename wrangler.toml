@@ -1,0 +1,9 @@
+name = "getassetfromkv-undefined-error"
+type = "webpack"
+route = ''
+zone_id = ''
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2021-10-15"
+kv_namespaces = [  { binding = "kv", id = "82e07404c1e64a83a4c5ecc63c1a13ee" }]
