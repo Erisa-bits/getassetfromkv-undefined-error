@@ -10,7 +10,7 @@ async function handleEvent(event) {
 
     if (request.method == 'GET') {
         try {
-            return await getAssetFromKV(event, { ASSET_NAMESPACE: kv })
+            return await getAssetFromKV(event, { ASSET_NAMESPACE: kv, ASSET_MANIFEST: { } })
         } catch (e) {
             if (e instanceof NotFoundError) {
                 // this is what should be happening
