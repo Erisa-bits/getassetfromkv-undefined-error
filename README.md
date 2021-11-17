@@ -1,3 +1,7 @@
+### **Update: This bug is fixed in [v0.2.0](https://github.com/cloudflare/kv-asset-handler/releases/tag/v0.2.0) of `kv-asset-handler`, so repo is archived.**
+
+---
+
 If this was working properly, it would return a 404 or map the request to `kv`.
 
 # Steps
